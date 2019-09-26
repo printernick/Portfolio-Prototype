@@ -11,6 +11,7 @@
 .sidenav.covernav {
   padding-top: 2%;
   padding-bottom: 2%;
+  border-right: none;
 }
 
 .sidenav.covernav a{
@@ -26,7 +27,7 @@
   background: white;
 
   position: absolute;
-  top: 15%;
+  top: 50px;
   left: 32.5%;
 }
 
@@ -113,7 +114,7 @@
 
 .wrapper .mainContent {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin-left: 7%; /* To the right of side navbar */
   overflow: auto;
 
@@ -132,7 +133,7 @@
 .lines {
   background-image: linear-gradient(#eee .1em, transparent .1em);
   background-size: 99.5% 1.6em;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .pageHeader {

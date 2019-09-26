@@ -92,11 +92,13 @@ $(document).ready(function()
     }
     else if (page == "Work Experience")
     {
-
+      $("#top").load("html/work/workHeader.html");
+      $(".mainContent").load("html/work/workMain.html");
     }
     else
     {
-
+      $("#top").load("html/extras/extraHeader.html");
+      $(".mainContent").load("html/extras/extraMain.html");
     }
 
     pageNum++;
